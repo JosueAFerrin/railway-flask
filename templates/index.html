@@ -1,13 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>My Flask App</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha384-dfEnn8/Cu7+dbUWdIsvoe9y5rqM0aCsCjB8E+uUQn5g25N2zmiVhd5L4RpyAJo0n" crossorigin="anonymous">
+    <link rel="icon" href="img/logo2.ico" type="image/x-icon">
+    <title>GamingWorld</title>
 </head>
+
 <body>
-    <h1>Welcome to My Flask App!</h1>
-    <br>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/s7tp4xmh-UE?si=fYnJOLbWjSMZ7qB_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <header>
+        <nav>
+            <a href="index.html"><img src="img/logo2.png" width="5%"></a>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Contactos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="parallax">
+        <img src="img/logo2.png">
+        <h1>Eniun</h1>
+    </div>
+    <div class="call-to-action">
+        <h2>¿Preparado para la acción?</h2>
+        <p class="big">¿Quieres armar tu setup gaming? ¡Somos los que estás buscando!<br>
+Somos una empresa pionera en todo lo relacionado al gaming y con los mejores precios del mercado.
+        </p>
+            <button>Más información</button>
+    </div>
+    <div class="info-box">
+        <h2>Que nadie te detenga</h2>
+        <div id="flex-p">
+            <p class="big"><i class="fas fa-star"></i><br>Tarjetas Gráficas: Sumérgete en mundos virtuales con gráficos impresionantes gracias a nuestras GPU de última generación.</p>
+            <p class="big"><i class="fas fa-thumbs-up"></i><br>Teclados Mecánicos: Siente cada pulsación con nuestros teclados diseñados para la precisión y la velocidad.</p>
+            <p class="big"><i class="fas fa-check"></i><br>Auriculares Gaming: Con sonido envolvente 7.1, nunca te perderás ni un paso del enemigo.</p>
+        </div>
+    </div>
+    <div class="description-box">
+        <h2>Artículos</h2>
+        <div class="img-container">
+            <img src="https://app.contabilium.com/files/explorer/16277/Productos-Servicios/concepto-5573153.png" id="auriculares">
+            <p class="big">Los mejores auriculares para juegos de deportes electrónicos de nivel de entrada con funciones de nivel de torneo.<br>
+
+El Razer BlackShark V2 X cuenta con un diseño de copa cerrada sobre la oreja para mejorar la cancelación pasiva del ruido. Está equipado con los nuevos controladores Razer™ TriForce de 50 mm y sonido envolvente 7.1, que brindan una experiencia de audio de juego inmersiva. Su micrófono cardioide Razer™ HyperClear garantiza una comunicación nítida con el equipo. Mientras que su diseño liviano y duradero garantiza que pueda soportar intensas sesiones de juego diarias.
+
+            </p>
+        </div>
+        <div class="img-container">
+            <img src="https://cdn.wccftech.com/wp-content/uploads/2022/09/geforce-rtx-4090-product-photo-002-1480x1003.png">
+            <p class="big">A partir de ahora, la tarjeta gráfica NVIDIA más rápida, la RTX 3090 Ti, tiene un reloj AIB máximo de alrededor de 1.8-1.9 GHz, pero las frecuencias de funcionamiento reales superan los 2 GHz dentro de los juegos. Pero esta cantidad de rendimiento requiere mucha potencia y mucha potencia genera mucho calor. Ahí es donde entra en juego la última refrigeración Founders Edition del equipo verde.
+			
+				<br>
+NVIDIA dice que han optimizado aún más el sistema Dual Axial Flow Through, aumentando el tamaño de los ventiladores y el volumen de las aletas en un 10%, y actualizando a una fuente de alimentación de 23 fases (RTX 4090). Las temperaturas de la memoria se reducen y las nuevas GPU Ada, sustancialmente más potentes, se mantienen frías en carcasas ventiladas, lo que brinda a los jugadores un excelente margen de overclocking.
+
+            </p>
+        </div>
+    </div>
+    <footer>
+        <a href="https://www.facebook.com/?locale=es_LA" target="_blank"><img src="img/facebook2.png"
+                alt="Facebook"></a>
+        <a href="https://twitter.com/?lang=es" target="_blank"><img src="img/twitter.png" alt="Twitter"></a>
+        <a href="https://www.pinterest.es/" target="_blank"><img src="img/pinterest.png" alt="Pinterest"></a>
+    </footer>
+    <a id="whatsapp-floating-btn" href="https://web.whatsapp.com/" target="_blank">
+        <img src="img/whats.png" alt="WhatsApp">
+    </a>
 </body>
+
 </html>
